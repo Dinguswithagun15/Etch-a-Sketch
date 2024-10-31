@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+#newgridbutton {
+    margin-top: 50px;
+    width: 100px;
+    height: 50px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 100px 100px 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.row {
+    display: flex;
+}
+
+.gridsquare {
+    width: 10px;
+    height: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
